@@ -1,0 +1,36 @@
+{
+  "name": "todlist-app-server",
+  "version": "0.0.0",
+  "description": "API for todolist app.",
+  "main": "server.ts",
+  "scripts": {
+    "development": "nodemon",
+    "build": "tsc --project tsconfig.json",
+    "start": "node ./dist/server.js",
+    "test": "jest"
+  },
+  "author": "Michael Flores",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.11.3",
+    "@apollo/subgraph": "^2.9.3",
+    "cors": "2.8.5",
+    "cross-env": "^7.0.3",
+    "express": "4.21.2",
+    "graphql": "^16.10.0",
+    "graphql-tag": "^2.12.6"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.14",
+    "@types/supertest": "^6.0.2",
+    "dotenv": "^16.4.7",
+    "jest": "29.7.0",
+    "nodemon": "^3.1.9",
+    "supertest": "7.0.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "watch": [
+        "."
+    ],
+    "delay": 2500,
+    "legacyWatch": true,
+    "exec": "cross-env NODE_ENV=development ts-node server.ts",
+    "ext": "ts js"
+}

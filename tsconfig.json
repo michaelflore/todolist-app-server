@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "lib": ["ES2020", "DOM", "DOM.Iterable"],
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "outDir": "dist"
+    },
+    "exclude": ["jest.config.ts", "__tests__", "node_modules"]
+}
